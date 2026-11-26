@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.paniacompany.com.br"><img src="https://img.shields.io/badge/empresa-Pania_Company-c9a24a?style=for-the-badge&labelColor=111111" alt="Pania Company"></a>
-  <a href="https://github.com/Leonardo-Pania/sombras-da-escola"><img src="https://img.shields.io/badge/criando_agora-Sombras_da_Escola-d62630?style=for-the-badge&logo=godotengine&logoColor=white" alt="Sombras da Escola"></a>
+  <img src="https://img.shields.io/badge/criando_agora-Sombras_da_Escola-d62630?style=for-the-badge&logo=godotengine&logoColor=white" alt="Sombras da Escola">
   <a href="https://leonardo-pania.github.io/agile-vagas/#demo"><img src="https://img.shields.io/badge/app_no_ar-Agile_Vagas-7a1026?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Agile Vagas"></a>
 </p>
 
@@ -29,6 +29,8 @@ e nas horas vagas estou criando o meu próprio jogo.
 
 ## 🚀 Projetos em destaque
 
+<sub>🔒 Os códigos ficam em repositórios privados. Aqui você vê o que cada projeto faz.</sub>
+
 <table>
   <tr>
     <td colspan="2">
@@ -43,9 +45,7 @@ e nas horas vagas estou criando o meu próprio jogo.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Leonardo-Pania/sombras-da-escola">
-        <img src="https://github.com/Leonardo-Pania/sombras-da-escola/raw/main/docs/banner.png" alt="Sombras da Escola">
-      </a>
+      <img src="./sombras.svg" alt="Sombras da Escola">
       <h3>🥷 Sombras da Escola</h3>
       <p>Jogo 3D de esconde-esconde para Android. Os ninjas se disfarçam de objetos da escola e o policial
       precisa encontrá-los antes do tempo acabar. Tem sirene nas salas, prisão e uma chave de resgate.</p>
@@ -55,10 +55,10 @@ e nas horas vagas estou criando o meu próprio jogo.
         <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
         <img src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white" alt="Android">
       </p>
-      <a href="https://github.com/Leonardo-Pania/sombras-da-escola"><b>Ver o projeto →</b></a>
+      <b>🔒 Código privado · em desenvolvimento</b>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Leonardo-Pania/agile-vagas">
+      <a href="https://leonardo-pania.github.io/agile-vagas/#demo">
         <img src="./agile-vagas.svg" alt="Agile Vagas">
       </a>
       <h3>💼 Agile Vagas</h3>
@@ -69,7 +69,6 @@ e nas horas vagas estou criando o meu próprio jogo.
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
         <img src="https://img.shields.io/badge/Apps_Script-4285F4?logo=google&logoColor=white" alt="Google Apps Script">
       </p>
-      <a href="https://github.com/Leonardo-Pania/agile-vagas"><b>Ver o código →</b></a> ·
       <a href="https://leonardo-pania.github.io/agile-vagas/#demo"><b>Abrir a demonstração →</b></a>
     </td>
   </tr>

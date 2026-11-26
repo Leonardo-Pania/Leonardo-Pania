@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="Sombras da Escola - jogo 3D de esconde-esconde para Android">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1022"/>
+      <stop offset="0.7" stop-color="#1a1530"/>
+      <stop offset="1" stop-color="#2a1420"/>
+    </linearGradient>
+    <radialGradient id="lua" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d8" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#ffe9a8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e5323f" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#e5323f" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="borda"><rect width="1280" height="440" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .olhos { animation: pisca 4s infinite; transform-origin: 960px 138px; transform-box: view-box; }
+    @keyframes pisca { 0%, 90%, 100% { transform: scaleY(1); } 94% { transform: scaleY(0.1); } }
+    .q1 { animation: sobe 3s ease-in-out infinite; }
+    .q2 { animation: sobe 3s ease-in-out infinite 1s; }
+    .q3 { animation: sobe 3s ease-in-out infinite 2s; }
+    @keyframes sobe { 0%, 100% { transform: translateY(0); opacity: 0.55; } 50% { transform: translateY(-8px); opacity: 1; } }
+    .sirene { animation: sirene 1.2s steps(1) infinite; }
+    @keyframes sirene { 0% { fill: #e5323f; } 50% { fill: #3b6cff; } }
+  </style>
+  <g clip-path="url(#borda)">
+    <rect width="1280" height="440" fill="url(#ceu)"/>
+    <circle cx="860" cy="78" r="110" fill="url(#lua)"/>
+    <circle cx="860" cy="78" r="24" fill="#fff3cf"/>
+    <g fill="#ffffff" fill-opacity="0.6">
+      <circle cx="720" cy="40" r="1.5"/><circle cx="1010" cy="60" r="1.2"/><circle cx="1230" cy="40" r="1.6"/>
+      <circle cx="1080" cy="120" r="1.1"/><circle cx="660" cy="120" r="1.3"/><circle cx="960" cy="30" r="1"/>
+    </g>
+
+    <!-- escola -->
+    <g fill="#2a2446" stroke="#3d3563" stroke-width="2">
+      <rect x="700" y="246" width="540" height="152"/>
+      <rect x="1110" y="146" width="92" height="252"/>
+      <path d="M1100 148 L1156 104 L1212 148 Z"/>
+    </g>
+    <circle cx="1156" cy="190" r="22" fill="#f3e2b0"/>
+    <path d="M1156 190 L1156 176 M1156 190 L1167 196" stroke="#2a2446" stroke-width="3" stroke-linecap="round"/>
+    <g fill="#f2c46b" fill-opacity="0.9">
+      <rect x="724" y="270" width="40" height="32" rx="3"/><rect x="784" y="270" width="40" height="32" rx="3"/>
+      <rect x="844" y="270" width="40" height="32" rx="3" class="sirene"/><rect x="1040" y="270" width="40" height="32" rx="3"/>
+      <rect x="1130" y="270" width="52" height="32" rx="3"/>
+    </g>
+    <rect x="0" y="396" width="1280" height="44" fill="#0b0a16"/>
+
+    <!-- objetos-disfarce -->
+    <g>
+      <rect x="752" y="356" width="38" height="40" rx="5" fill="#6a7b8c"/>
+      <rect x="748" y="350" width="46" height="8" rx="3" fill="#8293a4"/>
+      <text x="771" y="338" class="t q1" font-size="26" font-weight="800" fill="#ffcf5a" text-anchor="middle">?</text>
+      <path d="M842 396 L848 356 L878 356 L884 396 Z" fill="#c0673a"/>
+      <circle cx="863" cy="342" r="18" fill="#3f8f4a"/><circle cx="850" cy="350" r="12" fill="#4fa45a"/><circle cx="876" cy="350" r="12" fill="#357a40"/>
+      <text x="863" y="314" class="t q2" font-size="26" font-weight="800" fill="#ffcf5a" text-anchor="middle">?</text>
+      <rect x="1100" y="352" width="44" height="6" rx="2" fill="#b07c45"/>
+      <rect x="1102" y="358" width="5" height="38" fill="#7a532c"/><rect x="1137" y="358" width="5" height="38" fill="#7a532c"/>
+      <rect x="1136" y="318" width="6" height="36" fill="#7a532c"/><rect x="1110" y="318" width="32" height="18" rx="3" fill="#b07c45"/>
+      <text x="1122" y="306" class="t q3" font-size="26" font-weight="800" fill="#ffcf5a" text-anchor="middle">?</text>
+    </g>
+
+    <!-- ninja -->
+    <circle cx="985" cy="300" r="100" fill="url(#brilho)"/>
+    <g transform="translate(985 318) scale(0.66) translate(-960 -158)">
+      <path d="M865 180 C865 95 905 58 960 58 C1015 58 1055 95 1055 180 L1055 238 C1055 250 1045 258 1033 258 L887 258 C875 258 865 250 865 238 Z" fill="#14161c" stroke="#4a4f60" stroke-width="2"/>
+      <path d="M884 182 C884 110 916 80 960 80 C1004 80 1036 110 1036 182 Z" fill="#e5323f"/>
+      <path d="M892 182 C892 118 920 92 960 92 C1000 92 1028 118 1028 182 Z" fill="#f1c9a5"/>
+      <path d="M892 150 L1028 150 L1028 196 C1028 222 1000 240 960 240 C920 240 892 222 892 196 Z" fill="#1b1d24"/>
+      <path d="M904 112 Q930 100 948 114 L940 120 Q926 110 910 118 Z" fill="#2a1e1a"/>
+      <path d="M1016 112 Q990 100 972 114 L980 120 Q994 110 1010 118 Z" fill="#2a1e1a"/>
+      <g class="olhos">
+        <ellipse cx="932" cy="136" rx="13" ry="15" fill="#ffffff"/>
+        <ellipse cx="988" cy="136" rx="13" ry="15" fill="#ffffff"/>
+        <circle cx="934" cy="138" r="8" fill="#6b3a1f"/><circle cx="986" cy="138" r="8" fill="#6b3a1f"/>
+        <circle cx="934" cy="138" r="4" fill="#111111"/><circle cx="986" cy="138" r="4" fill="#111111"/>
+        <circle cx="937" cy="134" r="2.2" fill="#ffffff"/><circle cx="989" cy="134" r="2.2" fill="#ffffff"/>
+      </g>
+      <path d="M1050 176 Q1100 168 1128 190 Q1098 186 1070 196 Z" fill="#e5323f"/>
+      <path d="M1048 192 Q1092 200 1112 230 Q1084 212 1058 210 Z" fill="#c4232f"/>
+    </g>
+
+    <!-- texto -->
+    <rect x="60" y="62" width="250" height="34" rx="17" fill="#d62630"/>
+    <text x="185" y="85" class="t" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="2">EM DESENVOLVIMENTO</text>
+    <text x="56" y="170" class="t" font-size="72" font-weight="900" fill="#ffffff">SOMBRAS</text>
+    <text x="56" y="244" class="t" font-size="72" font-weight="900" fill="#f0464e">DA ESCOLA</text>
+    <text x="60" y="292" class="t" font-size="24" font-weight="500" fill="#e3e5ee">Esconde-esconde multiplayer em 3D para Android.</text>
+    <text x="60" y="326" class="t" font-size="24" font-weight="500" fill="#a9aec4">Ninjas viram objetos da escola. O policial tem que achar.</text>
+    <text x="60" y="378" class="t" font-size="17" font-weight="700" fill="#8f94ad" letter-spacing="2">GODOT 4 · ANDROID · MULTIPLAYER</text>
+  </g>
+</svg>

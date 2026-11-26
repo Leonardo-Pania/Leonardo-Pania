@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Leonardo Pania - desenvolvedor front-end e game dev">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#161127"/>
+      <stop offset="1" stop-color="#2b0d16"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e5323f" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e5323f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e5323f"/>
+      <stop offset="1" stop-color="#ff9f43"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .nome { font: 800 58px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .ola { font: 600 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ff6b6b; letter-spacing: 3px; }
+    .frase { font: 500 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #c9d1d9; opacity: 0; }
+    .marca { font: 700 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; letter-spacing: 4px; }
+    .f1 { opacity: 1; animation: troca 9s infinite 0s; }
+    .f2 { animation: troca 9s infinite 3s; }
+    .f3 { animation: troca 9s infinite 6s; }
+    @keyframes troca {
+      0% { opacity: 0; transform: translateY(10px); }
+      5% { opacity: 1; transform: translateY(0); }
+      30% { opacity: 1; transform: translateY(0); }
+      35% { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 0; }
+    }
+    .barra { animation: cresce 3s ease-in-out infinite alternate; transform-origin: 70px 0; }
+    @keyframes cresce { from { transform: scaleX(0.35); } to { transform: scaleX(1); } }
+    .olhos { animation: pisca 5s infinite; transform-origin: 960px 148px; }
+    @keyframes pisca { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+    .flutua { animation: flutua 4s ease-in-out infinite; }
+    @keyframes flutua { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .brilho { animation: pulsa 4s ease-in-out infinite; }
+    @keyframes pulsa { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+
+    <!-- texto -->
+    <text x="70" y="88" class="ola">OLÁ, EU SOU O</text>
+    <text x="66" y="152" class="nome">Leonardo Pania</text>
+    <rect x="70" y="170" width="300" height="5" rx="2.5" fill="url(#line)" class="barra"/>
+    <g transform="translate(70 222)">
+      <text class="frase f1">Desenvolvedor front-end</text>
+      <text class="frase f2">Criando um jogo 3D em Godot 4</text>
+      <text class="frase f3">Apps que resolvem problemas reais</text>
+    </g>
+    <text x="70" y="268" class="marca">PANIA COMPANY</text>
+
+    <!-- ninja geométrico -->
+    <circle cx="960" cy="150" r="140" fill="url(#glow)" class="brilho"/>
+    <g class="flutua">
+      <path d="M865 180 C865 95 905 58 960 58 C1015 58 1055 95 1055 180 L1055 238 C1055 250 1045 258 1033 258 L887 258 C875 258 865 250 865 238 Z" fill="#14161c" stroke="#2b2f3a" stroke-width="2"/>
+      <path d="M884 182 C884 110 916 80 960 80 C1004 80 1036 110 1036 182 Z" fill="#e5323f"/>
+      <path d="M892 182 C892 118 920 92 960 92 C1000 92 1028 118 1028 182 Z" fill="#f1c9a5"/>
+      <path d="M892 150 L1028 150 L1028 196 C1028 222 1000 240 960 240 C920 240 892 222 892 196 Z" fill="#1b1d24"/>
+      <path d="M904 112 Q930 100 948 114 L940 120 Q926 110 910 118 Z" fill="#2a1e1a"/>
+      <path d="M1016 112 Q990 100 972 114 L980 120 Q994 110 1010 118 Z" fill="#2a1e1a"/>
+      <g class="olhos">
+        <ellipse cx="932" cy="136" rx="13" ry="15" fill="#ffffff"/>
+        <ellipse cx="988" cy="136" rx="13" ry="15" fill="#ffffff"/>
+        <circle cx="934" cy="138" r="8" fill="#6b3a1f"/>
+        <circle cx="986" cy="138" r="8" fill="#6b3a1f"/>
+        <circle cx="934" cy="138" r="4" fill="#111111"/>
+        <circle cx="986" cy="138" r="4" fill="#111111"/>
+        <circle cx="937" cy="134" r="2.2" fill="#ffffff"/>
+        <circle cx="989" cy="134" r="2.2" fill="#ffffff"/>
+      </g>
+      <path d="M1050 176 Q1100 168 1128 190 Q1098 186 1070 196 Z" fill="#e5323f"/>
+      <path d="M1048 192 Q1092 200 1112 230 Q1084 212 1058 210 Z" fill="#c4232f"/>
+    </g>
+
+    <!-- detalhes de código -->
+    <text x="760" y="60" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#ffffff" fill-opacity="0.18">&lt;/&gt;</text>
+    <text x="1120" y="275" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#ffffff" fill-opacity="0.18">{ }</text>
+  </g>
+</svg>

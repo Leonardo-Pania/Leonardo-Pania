@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Leonardo-Pania/sombras-da-escola"><img src="https://img.shields.io/badge/jogando_agora-Sombras_da_Escola-d62630?style=for-the-badge&logo=godotengine&logoColor=white" alt="Sombras da Escola"></a>
+  <a href="https://github.com/Leonardo-Pania/sombras-da-escola"><img src="https://img.shields.io/badge/criando_agora-Sombras_da_Escola-d62630?style=for-the-badge&logo=godotengine&logoColor=white" alt="Sombras da Escola"></a>
   <a href="https://leonardo-pania.github.io/agile-vagas/#demo"><img src="https://img.shields.io/badge/app_no_ar-Agile_Vagas-7a1026?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Agile Vagas"></a>
 </p>
 
@@ -74,7 +74,7 @@ roda de verdade: sites, apps que resolvem problemas do dia a dia e, agora, um jo
 ## 📊 No GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Leonardo-Pania&show_icons=true&locale=pt-br&theme=tokyonight&hide_border=true&border_radius=12&count_private=true" alt="Estatísticas do GitHub">
+  <img height="165" src="https://streak-stats.demolab.com?user=Leonardo-Pania&locale=pt_BR&theme=tokyonight&hide_border=true&border_radius=12" alt="Sequência de contribuições">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Leonardo-Pania&layout=compact&locale=pt-br&theme=tokyonight&hide_border=true&border_radius=12" alt="Linguagens mais usadas">
 </p>
 

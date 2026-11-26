@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Leonardo Pania: empresário de tecnologia à frente da Pania Company" width="100%">
+  <img src="./banner.svg" alt="Leonardo Pania: fundador da Pania Company" width="100%">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ### Oi, eu sou o Leonardo 👋
 
-Sou empresário de tecnologia e estou à frente da **[Pania Company](https://www.paniacompany.com.br)**, que atende
+Sou empresário de tecnologia e fundador da **[Pania Company](https://www.paniacompany.com.br)**, que atende
 outras empresas em três frentes: **monitoramento** de servidores e sites, **sistemas de PDV** e **criação de sites**.
 
 A ideia da Pania nasceu na pandemia, vendo de perto negócios que não podiam parar e precisavam de tecnologia
@@ -20,7 +20,7 @@ a tecnologia trabalha a favor dele.
 Além de tocar a empresa, coloco a mão na massa: vários projetos daqui nasceram de problemas reais de clientes,
 e nas horas vagas estou criando o meu próprio jogo.
 
-- 🏢 **Empresa:** Pania Company · observabilidade com Zabbix e Grafana, PDV e sites
+- 🏢 **Fundador:** Pania Company · observabilidade com Zabbix e Grafana, PDV e sites
 - 💼 **Para clientes:** o Agile Vagas, app que busca vagas e prepara as postagens de um grupo de empregos
 - 🎮 **Projeto pessoal:** Sombras da Escola, jogo 3D multiplayer para Android feito em Godot 4
 - 📬 **Fale comigo:** pelo site [paniacompany.com.br](https://www.paniacompany.com.br)
@@ -36,7 +36,7 @@ e nas horas vagas estou criando o meu próprio jogo.
         <img src="./pania.svg" alt="Pania Company: monitoramento, PDV e criação de sites" width="100%">
       </a>
       <h3>🦁 Pania Company</h3>
-      <p>Minha empresa de tecnologia. Monitoramento 24 horas de servidores, sites e sistemas com Zabbix e Grafana
+      <p>A empresa de tecnologia que eu fundei. Monitoramento 24 horas de servidores, sites e sistemas com Zabbix e Grafana
       e alertas no WhatsApp, sistemas de PDV com implantação e treinamento, e sites de landing page a e-commerce.</p>
       <a href="https://www.paniacompany.com.br"><b>Conhecer a Pania Company →</b></a>
     </td>

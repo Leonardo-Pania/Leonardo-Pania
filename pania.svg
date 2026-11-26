@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Pania Company - observabilidade, sistemas de PDV e criação de sites">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0c"/>
+      <stop offset="1" stop-color="#1c160b"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d27a"/>
+      <stop offset="1" stop-color="#b8892f"/>
+    </linearGradient>
+    <linearGradient id="grafico" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4a843" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#d4a843" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .vivo { animation: pisca 1.6s ease-in-out infinite; }
+    @keyframes pisca { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    .linha { stroke-dasharray: 900; animation: desenha 4s ease-out infinite; }
+    @keyframes desenha { 0% { stroke-dashoffset: 900; } 60%, 100% { stroke-dashoffset: 0; } }
+  </style>
+  <rect width="1280" height="360" rx="22" fill="url(#fundo)"/>
+  <rect x="1" y="1" width="1278" height="358" rx="21" fill="none" stroke="#3a2f18"/>
+
+  <text x="60" y="78" class="t" font-size="40" font-weight="800" fill="#ffffff" letter-spacing="6">PANIA</text>
+  <text x="62" y="104" class="t" font-size="15" font-weight="700" fill="url(#ouro)" letter-spacing="9">COMPANY</text>
+  <text x="60" y="164" class="t" font-size="34" font-weight="800" fill="#ffffff">Grandes ideias.</text>
+  <text x="60" y="204" class="t" font-size="34" font-weight="800" fill="url(#ouro)">Conquistas reais.</text>
+
+  <g class="t">
+    <rect x="60" y="236" width="212" height="88" rx="14" fill="#151311" stroke="#3a2f18"/>
+    <text x="78" y="270" font-size="20" font-weight="700" fill="#f3d27a">Monitoramento</text>
+    <text x="78" y="298" font-size="15" fill="#bdb6a8">24/7 com Zabbix e Grafana</text>
+
+    <rect x="284" y="236" width="212" height="88" rx="14" fill="#151311" stroke="#3a2f18"/>
+    <text x="302" y="270" font-size="20" font-weight="700" fill="#f3d27a">Sistema de PDV</text>
+    <text x="302" y="298" font-size="15" fill="#bdb6a8">vendas, estoque e caixa</text>
+
+    <rect x="508" y="236" width="212" height="88" rx="14" fill="#151311" stroke="#3a2f18"/>
+    <text x="526" y="270" font-size="20" font-weight="700" fill="#f3d27a">Criação de sites</text>
+    <text x="526" y="298" font-size="15" fill="#bdb6a8">da landing page à loja</text>
+  </g>
+
+  <!-- painel de monitoramento ilustrativo -->
+  <g class="t">
+    <rect x="740" y="40" width="480" height="284" rx="16" fill="#121110" stroke="#3a2f18"/>
+    <text x="764" y="76" font-size="16" fill="#9c9585">Visão geral · Infraestrutura</text>
+    <circle cx="1124" cy="71" r="5" fill="#3ccf6e" class="vivo"/>
+    <text x="1136" y="76" font-size="14" font-weight="700" fill="#3ccf6e">AO VIVO</text>
+
+    <rect x="764" y="94" width="138" height="66" rx="10" fill="#1a1816" stroke="#2e271a"/>
+    <text x="778" y="118" font-size="13" fill="#9c9585">Disponibilidade</text>
+    <text x="778" y="146" font-size="22" font-weight="800" fill="#3ccf6e">99,9%</text>
+    <rect x="912" y="94" width="138" height="66" rx="10" fill="#1a1816" stroke="#2e271a"/>
+    <text x="926" y="118" font-size="13" fill="#9c9585">Resposta</text>
+    <text x="926" y="146" font-size="22" font-weight="800" fill="#ffffff">180 ms</text>
+    <rect x="1060" y="94" width="138" height="66" rx="10" fill="#1a1816" stroke="#2e271a"/>
+    <text x="1074" y="118" font-size="13" fill="#9c9585">Alertas</text>
+    <text x="1074" y="146" font-size="22" font-weight="800" fill="#f3d27a">1</text>
+
+    <rect x="764" y="174" width="434" height="128" rx="10" fill="#1a1816" stroke="#2e271a"/>
+    <path d="M780 280 L820 268 L860 274 L900 252 L940 260 L980 236 L1020 244 L1060 218 L1100 230 L1140 212 L1182 222 L1182 292 L780 292 Z" fill="url(#grafico)"/>
+    <path d="M780 280 L820 268 L860 274 L900 252 L940 260 L980 236 L1020 244 L1060 218 L1100 230 L1140 212 L1182 222" fill="none" stroke="#e6c065" stroke-width="3" stroke-linejoin="round" class="linha"/>
+    <text x="780" y="198" font-size="13" fill="#9c9585">Uso de CPU · últimas 24h</text>
+  </g>
+  <text x="1220" y="346" class="t" font-size="12" fill="#5f594d" text-anchor="end">painel ilustrativo · paniacompany.com.br</text>
+</svg>

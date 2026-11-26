@@ -1,27 +1,46 @@
 <p align="center">
-  <img src="./banner.svg" alt="Leonardo Pania: desenvolvedor front-end e game dev" width="100%">
+  <img src="./banner.svg" alt="Leonardo Pania: empresário de tecnologia à frente da Pania Company" width="100%">
 </p>
 
 <p align="center">
+  <a href="https://www.paniacompany.com.br"><img src="https://img.shields.io/badge/empresa-Pania_Company-c9a24a?style=for-the-badge&labelColor=111111" alt="Pania Company"></a>
   <a href="https://github.com/Leonardo-Pania/sombras-da-escola"><img src="https://img.shields.io/badge/criando_agora-Sombras_da_Escola-d62630?style=for-the-badge&logo=godotengine&logoColor=white" alt="Sombras da Escola"></a>
   <a href="https://leonardo-pania.github.io/agile-vagas/#demo"><img src="https://img.shields.io/badge/app_no_ar-Agile_Vagas-7a1026?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Agile Vagas"></a>
 </p>
 
 ### Oi, eu sou o Leonardo 👋
 
-Desenvolvedor front-end e criador da **Pania Company**. Gosto de pegar uma ideia e transformar em algo que
-roda de verdade: sites, apps que resolvem problemas do dia a dia e, agora, um jogo 3D.
+Sou empresário de tecnologia e estou à frente da **[Pania Company](https://www.paniacompany.com.br)**, que atende
+outras empresas em três frentes: **monitoramento** de servidores e sites, **sistemas de PDV** e **criação de sites**.
 
-- 🎮 **Agora:** desenvolvendo o **Sombras da Escola**, um esconde-esconde multiplayer em 3D para Android
-- 📱 **No ar:** o **Agile Vagas**, app que busca vagas e prepara as postagens de um grupo de empregos no WhatsApp
-- 🌱 **Aprendendo:** Godot 4, GDScript e desenvolvimento de jogos
-- ⚡ **Curiosidade:** no meu jogo, os modelos 3D são feitos por código
+A ideia da Pania nasceu na pandemia, vendo de perto negócios que não podiam parar e precisavam de tecnologia
+confiável. Em 2024 ela virou empresa, e o propósito continua o mesmo: deixar o cliente cuidar do negócio enquanto
+a tecnologia trabalha a favor dele.
+
+Além de tocar a empresa, coloco a mão na massa: vários projetos daqui nasceram de problemas reais de clientes,
+e nas horas vagas estou criando o meu próprio jogo.
+
+- 🏢 **Empresa:** Pania Company · observabilidade com Zabbix e Grafana, PDV e sites
+- 💼 **Para clientes:** o Agile Vagas, app que busca vagas e prepara as postagens de um grupo de empregos
+- 🎮 **Projeto pessoal:** Sombras da Escola, jogo 3D multiplayer para Android feito em Godot 4
+- 📬 **Fale comigo:** pelo site [paniacompany.com.br](https://www.paniacompany.com.br)
 
 ---
 
 ## 🚀 Projetos em destaque
 
 <table>
+  <tr>
+    <td colspan="2">
+      <a href="https://www.paniacompany.com.br">
+        <img src="./pania.svg" alt="Pania Company: monitoramento, PDV e criação de sites" width="100%">
+      </a>
+      <h3>🦁 Pania Company</h3>
+      <p>Minha empresa de tecnologia. Monitoramento 24 horas de servidores, sites e sistemas com Zabbix e Grafana
+      e alertas no WhatsApp, sistemas de PDV com implantação e treinamento, e sites de landing page a e-commerce.</p>
+      <a href="https://www.paniacompany.com.br"><b>Conhecer a Pania Company →</b></a>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Leonardo-Pania/sombras-da-escola">
@@ -58,18 +77,25 @@ roda de verdade: sites, apps que resolvem problemas do dia a dia e, agora, um jo
 
 ---
 
-## 🧰 Tecnologias
+## 🧰 Com o que eu trabalho
 
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Apps Script">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-</p>
+**Infraestrutura e monitoramento**<br>
+<img src="https://img.shields.io/badge/Zabbix-CC0000?style=for-the-badge&logo=zabbix&logoColor=white" alt="Zabbix">
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+
+**Sites e apps**<br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Apps Script">
+
+**Jogos e ferramentas**<br>
+<img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 
 ## 📊 No GitHub
 
